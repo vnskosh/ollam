@@ -8,7 +8,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 logger = logging.getLogger(__name__)
-#API_BASE =
+API_BASE = http://localhost:8080
 HEADERS = {"Content-Type": "application/json"}
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
